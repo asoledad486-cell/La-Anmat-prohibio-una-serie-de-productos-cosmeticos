@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fondo muy claro, casi blanco */
+    color: #333; /* Color de texto general: gris oscuro */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center; /* Centra todo el contenido */
+}
+
+/* Estilo del Encabezado Principal */
+h1 {
+    font-size: 2.5em;
+    color: #004d99; /* Azul oscuro corporativo */
+    border-bottom: 4px solid #004d99; /* Línea separadora azul */
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilo del Subtítulo (Tema de la noticia) */
+h3 {
+    font-size: 1.4em;
+    color: #cc0000; /* Rojo para destacar la prohibición */
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para los párrafos de la noticia */
+p {
+    max-width: 700px;
+    margin: 15px auto; /* Centra los párrafos */
+    text-align: justify; /* Justifica el texto para un look más formal */
+}
+
+/* Estilo de la Imagen */
+img {
+    display: block; /* Asegura que la imagen esté en su propia línea */
+    margin: 20px auto; /* Centra la imagen */
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px;
+}
+
+/* Estilo del Enlace */
+a {
+    color: #007bff; /* Azul vibrante para los enlaces */
+    text-decoration: none; /* Quita el subrayado por defecto */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Subraya al pasar el mouse */
+    color: #0056b3;
+}
+
+/* Estilo del párrafo que contiene el enlace */
+p:last-of-type {
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-align: center;
+}
